@@ -1,6 +1,6 @@
 public class StringFunctions {
     public static void main(String[] args){
-        String cars = "    Mustang ,Ferrari , Maruti , Hyundai     ";
+        String cars = "    Mustang ,Ferrari , Maruti , Hyundai     ";//considering given string as cars
         //1. we will use charAt() method to find out character at index  passed as an argument to charAt
         System.out.println("CharAt index 4 is : "+ cars.charAt(4));
         //2.this is indexOf() method used to determine char present at that index
