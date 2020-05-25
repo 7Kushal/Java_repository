@@ -6,13 +6,13 @@ public class Two_pointer_algo {
         System.out.print("Enter the length of array = ");
         Scanner in = new Scanner(System.in);
         int l = in.nextInt();
-        System.out.print("Enter the array = ");
+        System.out.print("Enter the array elements = ");
         int[] a = new int[l];
 
         for(int k =0 ; k <l ; k++){
             a[k]=in.nextInt();
         }
-        System.out.print("Enter the sum element you want to find = ");
+        System.out.print("Enter the sum you want to find = ");
         int sum = in.nextInt();
         System.out.println(isEqualTo(a,l,sum));
     }
