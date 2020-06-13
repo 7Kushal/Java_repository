@@ -5,14 +5,14 @@ public class list_new {
     public static void main(String[] args){
         //Making an arrayList
         //example of using arrayList without generic
-        // problem happen when wrong type data type is passed in the parameters and will lead to code bust
+        // problem happen when wrong type data type is passed in the parameters and will lead to code burst
         ArrayList a1 = new ArrayList();
         a1.add("golu");
         a1.add(22);
         System.out.println("a1 is = "+a1);
 
         // using generic
-        ArrayList<Integer> a2 = new ArrayList();
+        ArrayList<Integer> a2 = new ArrayList<>();
         a2.add(24);
         a2.add(22);
         System.out.println("a2 is = "+a2);
