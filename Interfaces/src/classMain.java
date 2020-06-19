@@ -1,5 +1,5 @@
 class person implements student,Youtuber{
-    @Override// its is must when using an abstract keyword
+    @Override// it is must when using an abstract keyword
     public void study() {
         System.out.println("the person is studying");
     }
