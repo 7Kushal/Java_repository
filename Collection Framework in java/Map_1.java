@@ -13,7 +13,6 @@ public class Map_1 {
         map.put(4,"Kush");
         map.put(5,"Kushal");
         map.put(6,null);
-        map.put(7,null);
         Set set = map.entrySet();
         Iterator itr = set.iterator();
         while(itr.hasNext()){
@@ -24,7 +23,8 @@ public class Map_1 {
         for (Map.Entry m : map.entrySet())
         { System.out.println("Key = " + m.getKey() + " and Value is = " + m.getValue() );
         }
-        // --> we are checking if
+        // --> map.containsKey(), map.containsValue(), map.get();
+        System.out.print( map.get(6) + " "+ map.containsKey(7));
         
     }
 }
